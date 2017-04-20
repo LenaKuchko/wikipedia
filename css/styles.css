@@ -1,8 +1,7 @@
-.jumbotron {
+.top {
   margin: 15px;
   border: 0.5px solid lightgray;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  background-color: #f9f9f9;
 }
 
 h2 {
@@ -59,10 +58,34 @@ h2 {
   padding: 10px;
   /*float: left;*/
 }
+
+#wiki  {
+  width: 135px;
+  margin-bottom: 10px;
+}
+
 .col-md-2 {
   padding-top: 50px;
 }
 
 .col-md-9 {
   padding-top: 120px;
+
+}
+.sidebar {
+  margin-right: 80px;
+  height: 100%;
+  position: absolute;
+}
+
+.main-container {
+  padding-left: 200px;
+}
+.sidebar-section{
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
 }
